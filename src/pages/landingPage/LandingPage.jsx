@@ -1,4 +1,9 @@
 import "./landingPage.css";
+import burgerLogo from 'src/assets/thisburger-logo.png';
+import arrow from 'src/assets/arrow-lpsection1.png';
+import backgroundBurger from 'src/assets/b3-lpsection2.jpg'
+import promoBurger from 'src/assets/promo-bb-lpsection3.jpg'
+
 
 export const LandingPage = () => {
 
@@ -10,10 +15,10 @@ export const LandingPage = () => {
           <h6>NO BURGER LIKE</h6>
           <h1 className="title-section1">This.Burger</h1>
           <h4 className="subtitle-section1">PEÇA DE QUALQUER LUGAR</h4>
-          <img src="src/assets/thisburger-logo.png" className="logo-section1" />
+          <img src={burgerLogo} className="logo-section1" />
           <a href="#promo">
             <img
-              src="src/assets/arrow-lpsection1.png"
+              src={arrow}
               className="arrowSection1"
             />
           </a>
@@ -22,14 +27,14 @@ export const LandingPage = () => {
 
       <div className="lpDiv2">
         <div className="lpSection2">
-          <img src="src/assets/b3-lpsection2.jpg" className="imageSection2" />
+          <img src={backgroundBurger} className="imageSection2" />
         </div>
       </div>
 
       <div className="lpDiv3">
         <div className="lpSection3">
           <img
-            src="src/assets/promo-bb-lpsection3.jpg"
+            src={promoBurger}
             id="promo"
             className="imageSection3"
           />
