@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { cardapio } from "../../Context/Context";
+import cardapio from "../../Context/Menu";
 import { updatePedidos } from "../../services/Request";
 import "./Atualizar.css";
 
