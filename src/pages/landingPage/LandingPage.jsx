@@ -1,8 +1,8 @@
 import "./landingPage.css";
-import burgerLogo from 'src/assets/thisburger-logo.png';
-import arrow from 'src/assets/arrow-lpsection1.png';
-import backgroundBurger from 'src/assets/b3-lpsection2.jpg'
-import promoBurger from 'src/assets/promo-bb-lpsection3.jpg'
+import burgerLogo from '/src/assets/thisburger-logo.png';
+import arrow from '/src/assets/arrow-lpsection1.png';
+import backgroundBurger from '/src/assets/b3-lpsection2.jpg'
+import promoBurger from '/src/assets/promo-bb-lpsection3.jpg'
 
 
 export const LandingPage = () => {
